@@ -22,7 +22,7 @@ public class Exercise {
     }
 
     public static void main(String[] args) {
-        Stack<String> stack = createStack();;
+        Stack<String> stack = createStack();
         System.out.println("Elemento en la cima: " + stack.peek());
         System.out.println("Mostrar y vaciar la pila:");
         printAndEmptyStack(stack);
